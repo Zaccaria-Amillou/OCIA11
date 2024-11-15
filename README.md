@@ -17,22 +17,22 @@
 
 <h3>Services AWS</h3>
     <ul>
-        <li>**EMR (Elastic MapReduce):** Cluster Hadoop géré pour exécuter des tâches de traitement de données distribuées avec PySpark.</li>
-        <li>**S3 (Simple Storage Service):** Stockage objet pour les données d'images brutes et les modèles entraînés.</li>
-        <li>**IAM (Identity and Access Management):** Gestion des accès et des permissions pour sécuriser les ressources AWS.</li>
+        <li>EMR (Elastic MapReduce): Cluster Hadoop géré pour exécuter des tâches de traitement de données distribuées avec PySpark.</li>
+        <li>S3 (Simple Storage Service): Stockage objet pour les données d'images brutes et les modèles entraînés.</li>
+        <li>IAM (Identity and Access Management):Gestion des accès et des permissions pour sécuriser les ressources AWS.</li>
     </ul>
 
 <h3>Services Azure</h3>
     <ul>
-        <li>**Azure Blob Storage:** Stockage objet pour les données intermédiaires et les résultats de traitement.</li>
-        <li>**Databricks (Optionnel):** Plateforme d'analyse de données basée sur Apache Spark, offrant une alternative à EMR pour le traitement distribué.</li>
+        <li>Azure Blob Storage: Stockage objet pour les données intermédiaires et les résultats de traitement.</li>
+        <li>Databricks: Plateforme d'analyse de données basée sur Apache Spark, offrant une alternative à EMR pour le traitement distribué.</li>
     </ul>
 
 <h2>Traitement des Données avec PySpark</h2>
 <p>Nous utiliserons PySpark pour développer des scripts de traitement de données distribués sur le cluster EMR. Nous compléterons le notebook existant en ajoutant les étapes suivantes :</p>
     <ul>
-        <li>**Diffusion des poids du modèle (Broadcast):** Permet de partager efficacement les poids du modèle TensorFlow entre les nœuds du cluster.</li>
-        <li>**Réduction de dimension (PCA):** Réduit la dimensionnalité des données pour améliorer les performances et la visualisation.</li>
+        <li>Diffusion des poids du modèle (Broadcast): Permet de partager efficacement les poids du modèle TensorFlow entre les nœuds du cluster.</li>
+        <li>Réduction de dimension (PCA): Réduit la dimensionnalité des données pour améliorer les performances et la visualisation.</li>
     </ul>
 
 ### Livrables
